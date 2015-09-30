@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/start_button"
+        android:layout_x="95dp"
+        android:layout_y="462dp"
+        android:onClick="startButtonClick"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stop_button"
+        android:layout_x="185dp"
+        android:layout_y="462dp"
+        android:onClick="stopButtonClick"/>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        class="ece281.joshua.robotcontrolv3.DisplayScreen"
+        android:id="@+id/displayScreenAuto"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+</AbsoluteLayout>

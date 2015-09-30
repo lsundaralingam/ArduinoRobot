@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Robot Control V3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_button_select">Button Control</string>
+    <string name="action_auto_select">Auto Control</string>
+    <string name="action_accel_select">Accelerometer Control</string>
+    <string name="action_reconnect_bluetooth">Reconnect Bluetooth</string>
+
+</resources>
